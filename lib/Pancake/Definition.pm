@@ -5,6 +5,8 @@ use warnings;
 
 use Log::Any qw($log);
 
+use Future;
+
 use Module::Load;
 use Data::Dumper;
 
