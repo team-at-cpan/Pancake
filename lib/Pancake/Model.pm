@@ -48,11 +48,11 @@ sub add_release {
 	my ($self, %args) = @_;
 	if($args{path}) {
 		my $info = CPAN::DistnameInfo->new($args{path});
-		$args{version} //= $info->version;
+		$args{version}      //= $info->version;
 		$args{distribution} //= $info->dist;
-		$args{filename} //= $info->filename;
-		$args{extension} //= $info->extension;
-		$args{author} //= $info->cpanid;
+		$args{filename}     //= $info->filename;
+		$args{extension}    //= $info->extension;
+		$args{author}       //= $info->cpanid;
 	}
 	return Future->fail('invalid version', model => 'invalid version supplied', \%args) unless defined $args{version};
 
