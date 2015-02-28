@@ -48,6 +48,7 @@ $parser->process_future->get;
 		'Line-Count'   => 14,
 		'Last-Updated' => 'Tue, 03 Feb 2015 11:53:19 GMT',
 	);
+
 	for my $k (sort keys %expected) {
 		is($parser->header($k), $expected{$k}, "header $k matches");
 		ok(exists $header{$k}, "received $k via header event");
