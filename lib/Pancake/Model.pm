@@ -3,7 +3,7 @@ package Pancake::Model;
 use strict;
 use warnings;
 
-use Pancake::Definition {
+use Adapter::Async::Model {
 	author       => {
 		collection => 'UnorderedMap',
 		item       => '::Author',

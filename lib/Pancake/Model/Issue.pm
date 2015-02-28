@@ -3,7 +3,7 @@ package Pancake::Model::Issue;
 use strict;
 use warnings;
 
-use Pancake::Definition {
+use Adapter::Async::Model {
 	subject      => 'string',
 	status       => 'string',
 };

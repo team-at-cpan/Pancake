@@ -3,7 +3,7 @@ package Pancake::Module;
 use strict;
 use warnings;
 
-use Pancake::Definition {
+use Adapter::Async::Model {
 	module  => 'string',
 	version => 'string',
 	dist    => 'string',

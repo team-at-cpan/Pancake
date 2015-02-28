@@ -3,7 +3,7 @@ package Pancake::Model::Distribution;
 use strict;
 use warnings;
 
-use Pancake::Definition {
+use Adapter::Async::Model {
 	release      => {
 		collection => 'UnorderedMap',
 		item       => '::Release',

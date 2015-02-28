@@ -3,7 +3,7 @@ package Pancake::Model::Release;
 use strict;
 use warnings;
 
-use Pancake::Definition {
+use Adapter::Async::Model {
 	distribution => '::Distribution',
 	author       => '::Author',
 	version      => 'version',

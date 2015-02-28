@@ -3,7 +3,7 @@ package Pancake::Model::TAP;
 use strict;
 use warnings;
 
-use Pancake::Definition {
+use Adapter::Async::Model {
 	test         => '::Test',
 	raw          => 'string',
 	index        => 'int',

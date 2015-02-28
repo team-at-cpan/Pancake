@@ -3,7 +3,7 @@ package Pancake::Model::Installation;
 use strict;
 use warnings;
 
-use Pancake::Definition {
+use Adapter::Async::Model {
 	release      => '::Release',
 	path         => 'string',
 	start        => 'time',
