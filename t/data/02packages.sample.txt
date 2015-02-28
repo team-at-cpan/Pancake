@@ -1,0 +1,23 @@
+File:         02packages.sample.txt
+URL:          http://www.perl.com/CPAN/modules/02packages.details.txt
+Description:  Some of the package names found in directory $CPAN/authors/id/
+Columns:      package name, version, path
+Intended-For: Automated fetch routines, namespace documentation.
+Written-By:   A text editor
+Line-Count:   14
+Last-Updated: Tue, 03 Feb 2015 11:53:19 GMT
+
+Adapter::Async                    0.011  T/TE/TEAM/Adapter-Async-0.011.tar.gz
+Adapter::Async::Bus               0.011  T/TE/TEAM/Adapter-Async-0.011.tar.gz
+Adapter::Async::OrderedList       0.011  T/TE/TEAM/Adapter-Async-0.011.tar.gz
+Adapter::Async::OrderedList::Array 0.011  T/TE/TEAM/Adapter-Async-0.011.tar.gz
+DBIx::Async                       0.003  T/TE/TEAM/DBIx-Async-0.003.tar.gz
+DBIx::Async::Handle               0.003  T/TE/TEAM/DBIx-Async-0.003.tar.gz
+DBIx::Async::Worker               0.003  T/TE/TEAM/DBIx-Async-0.003.tar.gz
+DBIx::Async::Worker::Default      0.003  T/TE/TEAM/DBIx-Async-0.003.tar.gz
+DBIx::Async::Worker::SQLite       0.003  T/TE/TEAM/DBIx-Async-0.003.tar.gz
+Mixin::Event::Dispatch            1.006  T/TE/TEAM/Mixin-Event-Dispatch-1.006.tar.gz
+Mixin::Event::Dispatch::Bus       1.006  T/TE/TEAM/Mixin-Event-Dispatch-1.006.tar.gz
+Mixin::Event::Dispatch::Event     1.006  T/TE/TEAM/Mixin-Event-Dispatch-1.006.tar.gz
+Net::Async::PostgreSQL            0.007  T/TE/TEAM/Net-Async-PostgreSQL-0.007.tar.gz
+Net::Async::PostgreSQL::Client    0.007  T/TE/TEAM/Net-Async-PostgreSQL-0.007.tar.gz
