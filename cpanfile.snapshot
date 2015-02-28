@@ -1,0 +1,1168 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Adapter-Async-0.013
+    pathname: T/TE/TEAM/Adapter-Async-0.013.tar.gz
+    provides:
+      Adapter::Async 0.013
+      Adapter::Async::Bus 0.013
+      Adapter::Async::OrderedList 0.013
+      Adapter::Async::OrderedList::Array 0.013
+      Adapter::Async::UnorderedMap 0.013
+      Adapter::Async::UnorderedMap::Hash 0.013
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Future 0.29
+      Mixin::Event::Dispatch 1.005
+      curry 0
+      parent 0
+      perl 5.012000
+  Algorithm-Diff-1.1903
+    pathname: T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
+    provides:
+      Algorithm::Diff 1.1903
+      Algorithm::Diff::_impl 1.1903
+    requirements:
+      ExtUtils::MakeMaker 0
+  Alien-libtermkey-0.16
+    pathname: P/PE/PEVANS/Alien-libtermkey-0.16.tar.gz
+    provides:
+      Alien::libtermkey 0.16
+    requirements:
+      File::Basename 0
+      File::Path 2.07
+      File::Spec 0
+      Module::Build 0
+  Alien-unibilium-0.11
+    pathname: P/PE/PEVANS/Alien-unibilium-0.11.tar.gz
+    provides:
+      Alien::unibilium 0.11
+    requirements:
+      ExtUtils::PkgConfig 0
+      File::Basename 0
+      File::Path 2.07
+      File::Spec 0
+      Module::Build 0
+  BSD-Resource-1.2907
+    pathname: J/JH/JHI/BSD-Resource-1.2907.tar.gz
+    provides:
+      BSD::Resource 1.2907
+    requirements:
+      ExtUtils::MakeMaker 0
+  CPAN-Meta-2.143240
+    pathname: D/DA/DAGOLDEN/CPAN-Meta-2.143240.tar.gz
+    provides:
+      CPAN::Meta 2.143240
+      CPAN::Meta::Converter 2.143240
+      CPAN::Meta::Feature 2.143240
+      CPAN::Meta::History 2.143240
+      CPAN::Meta::Merge 2.143240
+      CPAN::Meta::Prereqs 2.143240
+      CPAN::Meta::Spec 2.143240
+      CPAN::Meta::Validator 2.143240
+    requirements:
+      CPAN::Meta::Requirements 2.121
+      CPAN::Meta::YAML 0.008
+      Carp 0
+      ExtUtils::MakeMaker 6.17
+      JSON::PP 2.27200
+      Parse::CPAN::Meta 1.4414
+      Scalar::Util 0
+      perl 5.008
+      strict 0
+      version 0.88
+      warnings 0
+  Cache-LRU-0.04
+    pathname: K/KA/KAZUHO/Cache-LRU-0.04.tar.gz
+    provides:
+      Cache::LRU 0.04
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Test::More 0.88
+      Test::Requires 0
+      perl 5.008001
+  Capture-Tiny-0.28
+    pathname: D/DA/DAGOLDEN/Capture-Tiny-0.28.tar.gz
+    provides:
+      Capture::Tiny 0.28
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec 0
+      File::Temp 0
+      IO::Handle 0
+      Scalar::Util 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Devel-Cycle-1.12
+    pathname: L/LD/LDS/Devel-Cycle-1.12.tar.gz
+    provides:
+      Devel::Cycle 1.12
+    requirements:
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      Test::More 0
+  Encode-Locale-1.04
+    pathname: G/GA/GAAS/Encode-Locale-1.04.tar.gz
+    provides:
+      Encode::Locale 1.04
+    requirements:
+      Encode 2
+      Encode::Alias 0
+      ExtUtils::MakeMaker 0
+      perl 5.008
+  Exporter-Tiny-0.042
+    pathname: T/TO/TOBYINK/Exporter-Tiny-0.042.tar.gz
+    provides:
+      Exporter::Shiny 0.042
+      Exporter::Tiny 0.042
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
+  ExtUtils-PkgConfig-1.15
+    pathname: X/XA/XAOC/ExtUtils-PkgConfig-1.15.tar.gz
+    provides:
+      ExtUtils::PkgConfig 1.15
+    requirements:
+      ExtUtils::MakeMaker 0
+  File-Slurp-9999.19
+    pathname: U/UR/URI/File-Slurp-9999.19.tar.gz
+    provides:
+      File::Slurp 9999.19
+      FileSlurp_12 9999.13
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      POSIX 0
+      perl 5.004
+  File-Slurp-Tiny-0.003
+    pathname: L/LE/LEONT/File-Slurp-Tiny-0.003.tar.gz
+    provides:
+      File::Slurp::Tiny 0.003
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.30
+      File::Spec::Functions 0
+      FileHandle 0
+      strict 0
+      warnings 0
+  Format-Human-Bytes-0.06
+    pathname: S/SE/SEWI/Format-Human-Bytes-0.06.tar.gz
+    provides:
+      Format::Human::Bytes 0.06
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Test::More 0
+  Future-0.30
+    pathname: P/PE/PEVANS/Future-0.30.tar.gz
+    provides:
+      Future 0.30
+      Future::Utils 0.30
+      Test::Future 0.30
+    requirements:
+      Carp 1.25
+      Test::Builder::Module 0
+      Test::Fatal 0
+      Test::Identity 0
+      Test::More 0.88
+      Test::Refcount 0
+      Time::HiRes 0
+      perl 5.008
+  HTTP-Cookies-6.01
+    pathname: G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
+    provides:
+      HTTP::Cookies 6.01
+      HTTP::Cookies::Microsoft 6.00
+      HTTP::Cookies::Netscape 6.00
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      HTTP::Headers::Util 6
+      Time::Local 0
+      perl 5.008001
+  HTTP-Date-6.02
+    pathname: G/GA/GAAS/HTTP-Date-6.02.tar.gz
+    provides:
+      HTTP::Date 6.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      Time::Local 0
+      perl 5.006002
+  HTTP-Message-6.06
+    pathname: G/GA/GAAS/HTTP-Message-6.06.tar.gz
+    provides:
+      HTTP::Config 6.00
+      HTTP::Headers 6.05
+      HTTP::Headers::Auth 6.00
+      HTTP::Headers::ETag 6.00
+      HTTP::Headers::Util 6.03
+      HTTP::Message 6.06
+      HTTP::Request 6.00
+      HTTP::Request::Common 6.04
+      HTTP::Response 6.04
+      HTTP::Status 6.03
+    requirements:
+      Compress::Raw::Zlib 0
+      Encode 2.21
+      Encode::Locale 1
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      IO::Compress::Bzip2 2.021
+      IO::Compress::Deflate 0
+      IO::Compress::Gzip 0
+      IO::HTML 0
+      IO::Uncompress::Bunzip2 2.021
+      IO::Uncompress::Gunzip 0
+      IO::Uncompress::Inflate 0
+      IO::Uncompress::RawInflate 0
+      LWP::MediaTypes 6
+      MIME::Base64 2.1
+      MIME::QuotedPrint 0
+      URI 1.10
+      perl 5.008001
+  Heap-0.80
+    pathname: J/JM/JMM/Heap-0.80.tar.gz
+    provides:
+      Heap 0.80
+      Heap::Binary 0.80
+      Heap::Binomial 0.80
+      Heap::Elem 0.80
+      Heap::Elem::Num 0.80
+      Heap::Elem::NumRev 0.80
+      Heap::Elem::Ref 0.80
+      Heap::Elem::RefRev 0.80
+      Heap::Elem::Str 0.80
+      Heap::Elem::StrRev 0.80
+      Heap::Fibonacci 0.80
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::Simple 0.45
+  IO-Async-0.65
+    pathname: P/PE/PEVANS/IO-Async-0.65.tar.gz
+    provides:
+      IO::Async 0.65
+      IO::Async::Channel 0.65
+      IO::Async::ChildManager 0.65
+      IO::Async::File 0.65
+      IO::Async::FileStream 0.65
+      IO::Async::Function 0.65
+      IO::Async::Future 0.65
+      IO::Async::Handle 0.65
+      IO::Async::Listener 0.65
+      IO::Async::Loop 0.65
+      IO::Async::Loop::Poll 0.65
+      IO::Async::Loop::Select 0.65
+      IO::Async::LoopTests 0.65
+      IO::Async::MergePoint 0.65
+      IO::Async::Notifier 0.65
+      IO::Async::OS 0.65
+      IO::Async::OS::MSWin32 0.65
+      IO::Async::OS::cygwin 0.65
+      IO::Async::OS::linux 0.65
+      IO::Async::PID 0.65
+      IO::Async::Process 0.65
+      IO::Async::Protocol 0.65
+      IO::Async::Protocol::LineStream 0.65
+      IO::Async::Protocol::Stream 0.65
+      IO::Async::Resolver 0.65
+      IO::Async::Routine 0.65
+      IO::Async::Signal 0.65
+      IO::Async::Socket 0.65
+      IO::Async::Stream 0.65
+      IO::Async::Test 0.65
+      IO::Async::Timer 0.65
+      IO::Async::Timer::Absolute 0.65
+      IO::Async::Timer::Countdown 0.65
+      IO::Async::Timer::Periodic 0.65
+    requirements:
+      Exporter 5.57
+      File::stat 0
+      Future 0.22
+      Future::Utils 0.18
+      IO::Poll 0
+      Module::Build 0.4004
+      Socket 2.007
+      Storable 0
+      Struct::Dumb 0
+      Time::HiRes 0
+      perl 5.010
+  IO-HTML-1.001
+    pathname: C/CJ/CJM/IO-HTML-1.001.tar.gz
+    provides:
+      IO::HTML 1.001
+    requirements:
+      Carp 0
+      Encode 2.10
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.30
+  LWP-MediaTypes-6.02
+    pathname: G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
+    provides:
+      LWP::MediaTypes 6.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.006002
+  List-MoreUtils-0.405
+    pathname: R/RE/REHSACK/List-MoreUtils-0.405.tar.gz
+    provides:
+      List::MoreUtils 0.405
+      List::MoreUtils::PP 0.405
+      List::MoreUtils::XS 0.405
+    requirements:
+      Carp 0
+      Exporter::Tiny 0.038
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Path 0
+      File::Spec 0
+      IPC::Cmd 0
+      XSLoader 0
+      base 0
+  List-UtilsBy-0.09
+    pathname: P/PE/PEVANS/List-UtilsBy-0.09.tar.gz
+    provides:
+      List::UtilsBy 0.09
+    requirements:
+      Exporter 5.57
+      Test::More 0
+  Log-Any-1.03
+    pathname: D/DA/DAGOLDEN/Log-Any-1.03.tar.gz
+    provides:
+      Log::Any 1.03
+      Log::Any::Adapter 1.03
+      Log::Any::Adapter::Base 1.03
+      Log::Any::Adapter::File 1.03
+      Log::Any::Adapter::Null 1.03
+      Log::Any::Adapter::Stderr 1.03
+      Log::Any::Adapter::Stdout 1.03
+      Log::Any::Adapter::Test 1.03
+      Log::Any::Adapter::Util 1.03
+      Log::Any::Manager 1.03
+      Log::Any::Proxy 1.03
+      Log::Any::Proxy::Test 1.03
+      Log::Any::Test 1.03
+    requirements:
+      B 0
+      Carp 0
+      Data::Dumper 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      Fcntl 0
+      IO::File 0
+      Test::Builder 0
+      base 0
+      constant 0
+      perl 5.008001
+      strict 0
+      warnings 0
+  Memory-Usage-0.201
+    pathname: D/DO/DONEILL/Memory-Usage-0.201.tar.gz
+    provides:
+      Memory::Usage 0.201
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Test::More 0
+  Mixin-Event-Dispatch-1.006
+    pathname: T/TE/TEAM/Mixin-Event-Dispatch-1.006.tar.gz
+    provides:
+      Mixin::Event::Dispatch 1.006
+      Mixin::Event::Dispatch::Bus 1.006
+      Mixin::Event::Dispatch::Event 1.006
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      List::UtilsBy 0
+      Scalar::Util 0
+      parent 0
+  Module-Build-0.4211
+    pathname: L/LE/LEONT/Module-Build-0.4211.tar.gz
+    provides:
+      Module::Build 0.4211
+      Module::Build::Base 0.4211
+      Module::Build::Compat 0.4211
+      Module::Build::Config 0.4211
+      Module::Build::Cookbook 0.4211
+      Module::Build::Dumper 0.4211
+      Module::Build::Notes 0.4211
+      Module::Build::PPMMaker 0.4211
+      Module::Build::Platform::Default 0.4211
+      Module::Build::Platform::MacOS 0.4211
+      Module::Build::Platform::Unix 0.4211
+      Module::Build::Platform::VMS 0.4211
+      Module::Build::Platform::VOS 0.4211
+      Module::Build::Platform::Windows 0.4211
+      Module::Build::Platform::aix 0.4211
+      Module::Build::Platform::cygwin 0.4211
+      Module::Build::Platform::darwin 0.4211
+      Module::Build::Platform::os2 0.4211
+      Module::Build::PodParser 0.4211
+    requirements:
+      CPAN::Meta 2.142060
+      CPAN::Meta::YAML 0.003
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::CBuilder 0.27
+      ExtUtils::Install 0
+      ExtUtils::Manifest 0
+      ExtUtils::Mkbootstrap 0
+      ExtUtils::ParseXS 2.21
+      File::Basename 0
+      File::Compare 0
+      File::Copy 0
+      File::Find 0
+      File::Path 0
+      File::Spec 0.82
+      File::Temp 0.15
+      Getopt::Long 0
+      Module::Metadata 1.000002
+      Parse::CPAN::Meta 1.4401
+      Perl::OSType 1
+      Pod::Man 2.17
+      Test::Harness 3.16
+      Test::More 0.49
+      Text::Abbrev 0
+      Text::ParseWords 0
+      perl 5.008000
+      version 0.87
+  Net-Async-HTTP-0.37
+    pathname: P/PE/PEVANS/Net-Async-HTTP-0.37.tar.gz
+    provides:
+      Net::Async::HTTP 0.37
+      Net::Async::HTTP::Connection 0.37
+      Net::Async::HTTP::StallTimer 0.37
+    requirements:
+      Future 0.28
+      Future::Utils 0.16
+      HTTP::Cookies 0
+      HTTP::Request 0
+      HTTP::Request::Common 0
+      HTTP::Response 0
+      IO::Async::Loop 0.59
+      IO::Async::Stream 0.59
+      IO::Async::Test 0
+      IO::Async::Timer::Countdown 0
+      List::Util 0
+      Struct::Dumb 0
+      Test::Identity 0
+      Test::More 0.88
+      Test::Refcount 0
+      URI 0
+  Net-Async-Memcached-0.001
+    pathname: T/TE/TEAM/Net-Async-Memcached-0.001.tar.gz
+    provides:
+      Net::Async::Memcached 0.001
+      Net::Async::Memcached::Client 0.001
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      IO::Async::Stream 0.40
+      Mixin::Event::Dispatch 0.001
+      Protocol::Memcached 0.002
+      parent 0
+  Net-Async-Statsd-0.004
+    pathname: T/TE/TEAM/Net-Async-Statsd-0.004.tar.gz
+    provides:
+      Net::Async::Statsd 0.004
+      Net::Async::Statsd::Bus 0.004
+      Net::Async::Statsd::Client 0.004
+      Net::Async::Statsd::Server 0.004
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Future 0.29
+      IO::Async 0.62
+      IO::Socket::IP 0
+      List::Util 1.38
+      Mixin::Event::Dispatch 1.000
+      Socket 2.000
+      curry 0
+      parent 0
+  Net-Async-Tangence-0.12
+    pathname: P/PE/PEVANS/Net-Async-Tangence-0.12.tar.gz
+    provides:
+      Net::Async::Tangence 0.12
+      Net::Async::Tangence::Client 0.12
+      Net::Async::Tangence::Protocol 0.12
+      Net::Async::Tangence::Server 0.12
+      Net::Async::Tangence::ServerProtocol 0.12
+    requirements:
+      Encode 0
+      Exporter 5.57
+      IO::Async::Listener 0.36
+      IO::Async::Loop 0.16
+      IO::Async::Stream 0
+      IO::Async::Test 0
+      Tangence::Client 0.19
+      Tangence::Server 0.19
+      Test::Fatal 0.006
+      Test::HexString 0
+      Test::Identity 0
+      Test::Memory::Cycle 0
+      Test::More 0.88
+      Test::Refcount 0
+      URI::Split 0
+  PadWalker-2.0
+    pathname: R/RO/ROBIN/PadWalker-2.0.tar.gz
+    provides:
+      PadWalker 2.0
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
+  Parser-MGC-0.12
+    pathname: P/PE/PEVANS/Parser-MGC-0.12.tar.gz
+    provides:
+      Parser::MGC 0.12
+    requirements:
+      File::Slurp 0
+      File::Temp 0
+      Test::More 0.88
+  Proc-CPUUsage-1.001
+    pathname: M/ME/MELO/Proc-CPUUsage-1.001.tar.gz
+    provides:
+      Proc::CPUUsage 1.001
+    requirements:
+      BSD::Resource 0
+      ExtUtils::MakeMaker 0
+      Test::More 0.92
+      Time::HiRes 0
+  Process-Async-0.003
+    pathname: T/TE/TEAM/Process-Async-0.003.tar.gz
+    provides:
+      Process::Async 0.003
+      Process::Async::Child 0.003
+      Process::Async::Manager 0.003
+      Process::Async::Worker 0.003
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.48
+      Future 0.29
+      IO::Async 0.62
+      curry 0
+      parent 0
+      perl 5.012000
+  Protocol-Memcached-0.004
+    pathname: T/TE/TEAM/Protocol-Memcached-0.004.tar.gz
+    provides:
+      Protocol::Memcached 0.004
+      Protocol::Memcached::Client 0.004
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      List::UtilsBy 0
+      Test::More 0.98
+      parent 0
+  String-Tagged-0.12
+    pathname: P/PE/PEVANS/String-Tagged-0.12.tar.gz
+    provides:
+      String::Tagged 0.12
+    requirements:
+      Test::Identity 0
+      Test::More 0.88
+  Struct-Dumb-0.03
+    pathname: P/PE/PEVANS/Struct-Dumb-0.03.tar.gz
+    provides:
+      Struct::Dumb 0.03
+    requirements:
+      Test::Fatal 0
+      Test::More 0.88
+  Tangence-0.20
+    pathname: P/PE/PEVANS/Tangence-0.20.tar.gz
+    provides:
+      Tangence 0.20
+      Tangence::Class 0.20
+      Tangence::Client 0.20
+      Tangence::Compiler::Parser 0.20
+      Tangence::Constants 0.20
+      Tangence::Message 0.20
+      Tangence::Meta::Argument 0.20
+      Tangence::Meta::Class 0.20
+      Tangence::Meta::Event 0.20
+      Tangence::Meta::Field 0.20
+      Tangence::Meta::Method 0.20
+      Tangence::Meta::Property 0.20
+      Tangence::Meta::Struct 0.20
+      Tangence::Meta::Type 0.20
+      Tangence::Object 0.20
+      Tangence::ObjectProxy 0.20
+      Tangence::Property 0.20
+      Tangence::Registry 0.20
+      Tangence::Server 0.20
+      Tangence::Server::Context 0.20
+      Tangence::Stream 0.20
+      Tangence::Struct 0.20
+      Tangence::Type undef
+      Tangence::Type::Primitive undef
+      Tangence::Types 0.20
+    requirements:
+      Encode 0
+      Exporter 5.57
+      List::Util 1.29
+      Parser::MGC 0.04
+      Test::Fatal 0.006
+      Test::HexString 0
+      Test::Identity 0
+      Test::Memory::Cycle 0
+      Test::More 0.88
+      Test::Refcount 0
+      URI::Split 0
+      perl 5.01
+  Test-Differences-0.63
+    pathname: D/DC/DCANTRELL/Test-Differences-0.63.tar.gz
+    provides:
+      Test::Differences 0.63
+    requirements:
+      Capture::Tiny 0.24
+      Data::Dumper 2.126
+      Test::More 0
+      Text::Diff 0.35
+  Test-Fatal-0.014
+    pathname: R/RJ/RJBS/Test-Fatal-0.014.tar.gz
+    provides:
+      Test::Fatal 0.014
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      Test::Builder 0
+      Try::Tiny 0.07
+      strict 0
+      warnings 0
+  Test-HexString-0.03
+    pathname: P/PE/PEVANS/Test-HexString-0.03.tar.gz
+    provides:
+      Test::HexString 0.03
+    requirements:
+      Test::Builder 0
+      Test::Builder::Tester 0
+      Test::More 0
+  Test-Identity-0.01
+    pathname: P/PE/PEVANS/Test-Identity-0.01.tar.gz
+    provides:
+      Test::Identity 0.01
+    requirements:
+      Scalar::Util 0
+      Test::Builder::Tester 0
+      Test::More 0
+  Test-Memory-Cycle-1.04
+    pathname: P/PE/PETDANCE/Test-Memory-Cycle-1.04.tar.gz
+    provides:
+      Test::Memory::Cycle 1.04
+    requirements:
+      Devel::Cycle 1.07
+      ExtUtils::MakeMaker 0
+      Getopt::Long 0
+      PadWalker 0
+      Test::Builder 0
+      Test::Builder::Tester 0
+      Test::More 0
+      Test::Simple 0.62
+  Test-Refcount-0.08
+    pathname: P/PE/PEVANS/Test-Refcount-0.08.tar.gz
+    provides:
+      Test::Refcount 0.08
+    requirements:
+      B 0
+      Scalar::Util 0
+      Test::Builder 0
+      Test::Builder::Tester 0
+      Test::More 0
+  Test-Requires-0.08
+    pathname: T/TO/TOKUHIROM/Test-Requires-0.08.tar.gz
+    provides:
+      Test::Requires 0.08
+    requirements:
+      ExtUtils::MakeMaker 6.64
+      Test::Builder::Module 0
+      Test::More 0.61
+      perl 5.008_001
+  Text-Diff-1.41
+    pathname: O/OV/OVID/Text-Diff-1.41.tar.gz
+    provides:
+      Text::Diff 1.41
+      Text::Diff::Base 1.41
+      Text::Diff::Config 1.41
+      Text::Diff::Table 1.41
+    requirements:
+      Algorithm::Diff 1.19
+      Exporter 0
+      ExtUtils::MakeMaker 0
+  Text-FIGlet-2.19.3
+    pathname: J/JP/JPIERCE/Text-FIGlet-2.19.3.tgz
+    provides:
+      Text::FIGlet 2.019003
+      Text::FIGlet::Control 2.15
+      Text::FIGlet::Font 2.019003
+      Text::FIGlet::Illuminated 2.19
+      Text::FIGlet::Ransom 2.17
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::Differences 0
+  Tickit-0.50
+    pathname: P/PE/PEVANS/Tickit-0.50.tar.gz
+    provides:
+      HelloWorldWidget undef
+      Tickit 0.50
+      Tickit::ContainerWidget 0.50
+      Tickit::Debug undef
+      Tickit::OneLineWidget 0.50
+      Tickit::Pen 0.50
+      Tickit::Pen::Immutable 0.50
+      Tickit::Pen::Mutable 0.50
+      Tickit::Rect 0.50
+      Tickit::RectSet 0.50
+      Tickit::RenderBuffer 0.50
+      Tickit::SingleChildWidget 0.50
+      Tickit::StringPos 0.50
+      Tickit::Style 0.50
+      Tickit::Style::Parser 0.50
+      Tickit::Term 0.50
+      Tickit::Test 0.50
+      Tickit::Test::MockTerm 0.50
+      Tickit::Utils 0.50
+      Tickit::Widget 0.50
+      Tickit::Widget::Box 0.50
+      Tickit::Widget::Static 0.50
+      Tickit::WidgetRole 0.50
+      Tickit::WidgetRole::Alignable 0.50
+      Tickit::Window 0.50
+    requirements:
+      Alien::libtermkey 0.16
+      Alien::unibilium 0.11
+      Exporter 5.57
+      ExtUtils::CBuilder 0
+      ExtUtils::PkgConfig 0
+      List::MoreUtils 0
+      Module::Build 0
+      Parser::MGC 0
+      Struct::Dumb 0
+      perl 5.010
+  Tickit-Console-0.07
+    pathname: P/PE/PEVANS/Tickit-Console-0.07.tar.gz
+    provides:
+      Tickit::Console 0.07
+      Tickit::Console::Tab 0.07
+    requirements:
+      String::Tagged 0.10
+      Test::Identity 0
+      Test::More 0.88
+      Tickit 0
+      Tickit::Widget::Entry 0
+      Tickit::Widget::Scroller 0.04
+      Tickit::Widget::Tabbed 0.015
+      Tickit::Window 0.45
+      perl 5.010
+  Tickit-DSL-0.028
+    pathname: T/TE/TEAM/Tickit-DSL-0.028.tar.gz
+    provides:
+      Tickit::DSL 0.028
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 6.48
+      List::UtilsBy 0
+      Tickit 0.50
+      Tickit::Console 0.06
+      Tickit::Widget::Breadcrumb 0.003
+      Tickit::Widget::Decoration 0.004
+      Tickit::Widget::Figlet 0.001
+      Tickit::Widget::FileViewer 0.004
+      Tickit::Widget::FloatBox 0.02
+      Tickit::Widget::Layout::Desktop 0.009
+      Tickit::Widget::Layout::Relative 0.005
+      Tickit::Widget::LogAny 0.004
+      Tickit::Widget::Menu 0.08
+      Tickit::Widget::Progressbar 0.101
+      Tickit::Widget::ScrollBox 0.03
+      Tickit::Widget::Scroller 0.18
+      Tickit::Widget::SegmentDisplay 0.02
+      Tickit::Widget::SparkLine 0.104
+      Tickit::Widget::Statusbar 0.004
+      Tickit::Widget::Tabbed 0.017
+      Tickit::Widget::Table 0.214
+      Tickit::Widget::Tree 0.113
+      Tickit::Widgets 0.19
+      parent 0
+      perl 5.010001
+  Tickit-Widget-Breadcrumb-0.003
+    pathname: T/TE/TEAM/Tickit-Widget-Breadcrumb-0.003.tar.gz
+    provides:
+      Tickit::Widget::Breadcrumb 0.003
+    requirements:
+      Adapter::Async::OrderedList::Array 0.007
+      ExtUtils::MakeMaker 6.48
+      Future 0.30
+      Mixin::Event::Dispatch 1.006
+      Tickit 0.50
+      Tickit::Widget 0
+      curry 0
+      parent 0
+      perl 5.010001
+  Tickit-Widget-Decoration-0.004
+    pathname: T/TE/TEAM/Tickit-Widget-Decoration-0.004.tar.gz
+    provides:
+      Tickit::Widget::Decoration 0.004
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Tickit 0.33
+      parent 0
+  Tickit-Widget-Figlet-0.002
+    pathname: T/TE/TEAM/Tickit-Widget-Figlet-0.002.tar.gz
+    provides:
+      Tickit::Widget::Figlet 0.002
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Text::FIGlet 0
+      Tickit 0.48
+      Tickit::Widget 0
+      parent 0
+      perl 5.010001
+  Tickit-Widget-FileViewer-0.004
+    pathname: T/TE/TEAM/Tickit-Widget-FileViewer-0.004.tar.gz
+    provides:
+      Tickit::Widget::FileViewer 0.004
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Text::Tabs 0
+      Tickit 0.46
+      Tickit::Widget 0
+      parent 0
+  Tickit-Widget-FloatBox-0.02
+    pathname: P/PE/PEVANS/Tickit-Widget-FloatBox-0.02.tar.gz
+    provides:
+      Tickit::Widget::FloatBox 0.02
+    requirements:
+      Test::Identity 0
+      Test::More 0.88
+      Tickit::ContainerWidget 0
+      Tickit::Test 0
+  Tickit-Widget-Layout-Desktop-0.009
+    pathname: T/TE/TEAM/Tickit-Widget-Layout-Desktop-0.009.tar.gz
+    provides:
+      Tickit::Widget::Layout::Desktop 0.009
+      Tickit::Widget::Layout::Desktop::Window 0.009
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      List::Util 1.29
+      Tickit 0.48
+      Tickit::Widget 0
+      Tickit::Widget::Menu 0
+      Tickit::WidgetRole::Movable 0.002
+      Variable::Disposition 0
+      curry::weak 0
+      parent 0
+      perl 5.012000
+  Tickit-Widget-Layout-Relative-0.005
+    pathname: T/TE/TEAM/Tickit-Widget-Layout-Relative-0.005.tar.gz
+    provides:
+      Tickit::Layout::Relative 0.005
+      Tickit::Widget::Layout::Relative 0.005
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      List::UtilsBy 0
+      Tickit 0.33
+      parent 0
+  Tickit-Widget-LogAny-0.004
+    pathname: T/TE/TEAM/Tickit-Widget-LogAny-0.004.tar.gz
+    provides:
+      Log::Any::Adapter::Tickit 0.004
+      Tickit::Widget::LogAny 0.004
+      Tie::Tickit::LogAny::STDERR 0.004
+    requirements:
+      Adapter::Async 0
+      ExtUtils::MakeMaker 6.48
+      Future 0.30
+      Log::Any 0
+      Text::Wrap 0
+      Tickit::Widget 0
+      Tickit::Widget::Button 0
+      Tickit::Widget::Frame 0
+      Tickit::Widget::Static 0
+      Tickit::Widget::Table 0.214
+      Tickit::Widget::VBox 0
+      Variable::Disposition 0
+      parent 0
+      perl 5.012000
+  Tickit-Widget-Menu-0.09
+    pathname: P/PE/PEVANS/Tickit-Widget-Menu-0.09.tar.gz
+    provides:
+      Tickit::Widget::Menu 0.09
+      Tickit::Widget::Menu::Item 0.09
+      Tickit::Widget::Menu::base 0.09
+      Tickit::Widget::Menu::itembase 0.09
+      Tickit::Widget::MenuBar 0.09
+    requirements:
+      Test::More 0.88
+      Tickit::RenderBuffer 0.43
+      Tickit::Test 0
+      Tickit::Widget 0.36
+      Tickit::Window 0.43
+      perl 5.010
+  Tickit-Widget-Progressbar-0.101
+    pathname: T/TE/TEAM/Tickit-Widget-Progressbar-0.101.tar.gz
+    provides:
+      Tickit::Widget::Progressbar 0.101
+      Tickit::Widget::Progressbar::Horizontal 0.101
+      Tickit::Widget::Progressbar::Vertical 0.101
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Tickit 0.46
+      Tickit::Widget 0
+      parent 0
+  Tickit-Widget-ScrollBox-0.05
+    pathname: P/PE/PEVANS/Tickit-Widget-ScrollBox-0.05.tar.gz
+    provides:
+      Tickit::Widget::ScrollBox 0.05
+      Tickit::Widget::ScrollBox::Extent 0.05
+    requirements:
+      Test::More 0.88
+      Test::Refcount 0
+      Tickit::SingleChildWidget 0.36
+      Tickit::Style 0.35
+      Tickit::Test 0.38
+      Tickit::Window 0.39
+  Tickit-Widget-Scroller-0.19
+    pathname: P/PE/PEVANS/Tickit-Widget-Scroller-0.19.tar.gz
+    provides:
+      Tickit::Widget::Scroller 0.19
+      Tickit::Widget::Scroller::Item::RichText 0.19
+      Tickit::Widget::Scroller::Item::Text 0.19
+    requirements:
+      String::Tagged 0
+      Tickit::Pen 0.19
+      Tickit::RenderBuffer 0.43
+      Tickit::Widget 0.35
+      Tickit::Window 0.42
+  Tickit-Widget-SegmentDisplay-0.03
+    pathname: P/PE/PEVANS/Tickit-Widget-SegmentDisplay-0.03.tar.gz
+    provides:
+      Tickit::Widget::SegmentDisplay 0.03
+    requirements:
+      Test::More 0.88
+      Tickit::Test 0.12
+      Tickit::Widget 0.36
+  Tickit-Widget-SparkLine-0.104
+    pathname: T/TE/TEAM/Tickit-Widget-SparkLine-0.104.tar.gz
+    provides:
+      Tickit::Widget::SparkLine 0.104
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Tickit 0.46
+      Tickit::Widget 0
+      parent 0
+  Tickit-Widget-Statusbar-0.004
+    pathname: T/TE/TEAM/Tickit-Widget-Statusbar-0.004.tar.gz
+    provides:
+      Tickit::Widget::Statusbar 0.004
+      Tickit::Widget::Statusbar::CPU 0.004
+      Tickit::Widget::Statusbar::Clock 0.004
+      Tickit::Widget::Statusbar::Icon 0.004
+      Tickit::Widget::Statusbar::Memory 0.004
+      Tickit::Widget::Statusbar::WidgetList 0.004
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Format::Human::Bytes 0
+      Memory::Usage 0
+      Proc::CPUUsage 0
+      String::Tagged 0.09
+      Tickit 0.46
+      Tickit::Widget 0
+      Tickit::Widget::Progressbar 0.100
+      Time::HiRes 0
+      curry 0
+      parent 0
+      perl 5.010001
+  Tickit-Widget-Tabbed-0.017
+    pathname: P/PE/PEVANS/Tickit-Widget-Tabbed-0.017.tar.gz
+    provides:
+      Tickit::Widget::Tabbed 0.017
+      Tickit::Widget::Tabbed::Ribbon 0.017
+      Tickit::Widget::Tabbed::Ribbon::horizontal 0.017
+      Tickit::Widget::Tabbed::Ribbon::vertical 0.017
+      Tickit::Widget::Tabbed::Tab 0.017
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      List::Util 1.26
+      Scalar::Util 0
+      Test::Identity 0
+      Test::More 0.88
+      Test::Refcount 0
+      Tickit::ContainerWidget 0.44
+      Tickit::Test 0.43
+      Tickit::Widget 0.36
+      Tickit::Widget::Static 0
+      Tickit::Widget::VBox 0
+      Tickit::Window 0.42
+      parent 0
+      perl 5.010
+  Tickit-Widget-Table-0.214
+    pathname: T/TE/TEAM/Tickit-Widget-Table-0.214.tar.gz
+    provides:
+      Tickit::Widget::Table 0.214
+    requirements:
+      Adapter::Async 0.010
+      ExtUtils::MakeMaker 6.48
+      String::Tagged 0.09
+      Tickit 0.46
+      Tickit::Widget 0
+      curry 0
+      parent 0
+      perl 5.010001
+  Tickit-Widget-Tree-0.114
+    pathname: T/TE/TEAM/Tickit-Widget-Tree-0.114.tar.gz
+    provides:
+      Tickit::Widget::Tree 0.114
+    requirements:
+      Adapter::Async 0.012
+      ExtUtils::MakeMaker 6.48
+      Log::Any 0
+      Mixin::Event::Dispatch 1.006
+      Tickit 0.46
+      Tickit::Widget 0
+      Tree::DAG_Node 1.22
+      parent 0
+      perl 5.010001
+  Tickit-WidgetRole-Movable-0.002
+    pathname: T/TE/TEAM/Tickit-WidgetRole-Movable-0.002.tar.gz
+    provides:
+      Tickit::WidgetRole::Movable 0.002
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Tickit 0.46
+      Tickit::Widget 0
+      parent 0
+  Tickit-Widgets-0.19
+    pathname: P/PE/PEVANS/Tickit-Widgets-0.19.tar.gz
+    provides:
+      Tickit::Widget::Border 0.19
+      Tickit::Widget::Button 0.19
+      Tickit::Widget::CheckButton 0.19
+      Tickit::Widget::Entry 0.25
+      Tickit::Widget::Fill 0.19
+      Tickit::Widget::Frame 0.31
+      Tickit::Widget::GridBox 0.19
+      Tickit::Widget::HBox 0.46
+      Tickit::Widget::HSplit 0.19
+      Tickit::Widget::LinearBox 0.46
+      Tickit::Widget::LinearSplit 0.19
+      Tickit::Widget::Placegrid 0.19
+      Tickit::Widget::RadioButton 0.19
+      Tickit::Widget::Spinner 0.19
+      Tickit::Widget::VBox 0.46
+      Tickit::Widget::VSplit 0.19
+      Tickit::Widgets 0.19
+    requirements:
+      Test::More 0.88
+      Tickit::RenderBuffer 0
+      Tickit::Style 0.32
+      Tickit::Utils 0.29
+      Tickit::Widget 0.40
+      Tickit::Window 0.39
+      perl 5.010
+  Tree-DAG_Node-1.24
+    pathname: R/RS/RSAVAGE/Tree-DAG_Node-1.24.tgz
+    provides:
+      Tree::DAG_Node 1.24
+    requirements:
+      File::Slurp::Tiny 0.003
+      File::Spec 3.4
+      File::Temp 0.19
+      Module::Build 0.38
+      Test::More 0.98
+      strict 0
+      warnings 0
+  Try-Tiny-0.22
+    pathname: D/DO/DOY/Try-Tiny-0.22.tar.gz
+    provides:
+      Try::Tiny 0.22
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.30
+      constant 0
+      strict 0
+      warnings 0
+  URI-1.65
+    pathname: E/ET/ETHER/URI-1.65.tar.gz
+    provides:
+      URI 1.65
+      URI::Escape 3.31
+      URI::Heuristic 4.20
+      URI::IRI undef
+      URI::QueryParam undef
+      URI::Split undef
+      URI::URL 5.04
+      URI::WithBase 2.20
+      URI::_foreign undef
+      URI::_generic undef
+      URI::_idna undef
+      URI::_ldap 1.65
+      URI::_login undef
+      URI::_punycode 1.65
+      URI::_query undef
+      URI::_segment undef
+      URI::_server undef
+      URI::_userpass undef
+      URI::data 1.65
+      URI::file 4.21
+      URI::file::Base undef
+      URI::file::FAT undef
+      URI::file::Mac undef
+      URI::file::OS2 undef
+      URI::file::QNX undef
+      URI::file::Unix undef
+      URI::file::Win32 undef
+      URI::ftp undef
+      URI::gopher undef
+      URI::http undef
+      URI::https undef
+      URI::ldap 1.65
+      URI::ldapi undef
+      URI::ldaps undef
+      URI::mailto undef
+      URI::mms undef
+      URI::news undef
+      URI::nntp undef
+      URI::pop undef
+      URI::rlogin undef
+      URI::rsync undef
+      URI::rtsp undef
+      URI::rtspu undef
+      URI::sip 1.65
+      URI::sips undef
+      URI::snews undef
+      URI::ssh undef
+      URI::telnet undef
+      URI::tn3270 undef
+      URI::urn undef
+      URI::urn::isbn undef
+      URI::urn::oid undef
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      MIME::Base64 2
+      Scalar::Util 0
+      parent 0
+      perl 5.008001
+      utf8 0
+  Variable-Disposition-0.004
+    pathname: T/TE/TEAM/Variable-Disposition-0.004.tar.gz
+    provides:
+      Variable::Disposition 0.004
+    requirements:
+      ExtUtils::MakeMaker 6.48
+      Future 0.30
+      perl 5.010001
+  curry-1.000000
+    pathname: M/MS/MSTROUT/curry-1.000000.tar.gz
+    provides:
+      curry 1.000000
+      curry::weak 1.000000
+    requirements:
+      ExtUtils::MakeMaker 0
+  local-lib-2.000015
+    pathname: H/HA/HAARG/local-lib-2.000015.tar.gz
+    provides:
+      lib::core::only undef
+      local::lib 2.000015
+    requirements:
+      perl 5.006
