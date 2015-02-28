@@ -42,26 +42,15 @@ sub add_release {
 		}),
 	)->then(sub {
 		my ($author, $dist) = @_;
-		Future->done(
-			Pancake::Model::Release->new(
-				author => $author,
-				distribution => $dist,
-			)
-		)
-	})
-}
-
-sub get_or_create {
-	my ($self, $type, $v, $create) = @_;
-	return Future->done($v) if ref $v;
-	$self->$type->exists($v)->then(sub {
-		return $self->$type->get_key($v) if shift;
-
-		my $item = $create->($v);
-		$self->$type->set_key(
-			$v => $item
+		my $release = Pancake::Model::Release->new(
+			author => $author,
+			distribution => $dist,
+			version => $args{version},
+		);
+		$dist->release->set_key(
+			$release->version => $release
 		)->transform(
-			done => sub { $item }
+			done => sub { $release }
 		)
 	})
 }

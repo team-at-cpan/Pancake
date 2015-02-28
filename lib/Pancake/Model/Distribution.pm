@@ -5,7 +5,7 @@ use warnings;
 
 use Pancake::Definition {
 	release      => {
-		collection => 'OrderedList',
+		collection => 'UnorderedMap',
 		item       => '::Release',
 	},
 	issue        => {
