@@ -38,6 +38,7 @@ use Adapter::Async::Model {
 		collection => 'OrderedList',
 		item       => '::LocalLib',
 	},
+	config => '::Config',
 };
 
 use Log::Any qw($log);
