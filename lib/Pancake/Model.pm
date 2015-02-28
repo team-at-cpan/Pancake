@@ -34,6 +34,10 @@ use Adapter::Async::Model {
 		item       => '::Installation',
 		key        => 'string',
 	},
+	local_lib      => {
+		collection => 'OrderedList',
+		item       => '::LocalLib',
+	},
 };
 
 use Log::Any qw($log);
