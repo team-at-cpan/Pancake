@@ -89,14 +89,15 @@ sub _add_to_loop {
 	}
 	my $f = $self->process_future;
 	$self->add_child(
-		IO::Async::Process->new(
+		my $proc = IO::Async::Process->new(
 			%args,
 			stdout => {
 				on_read => sub {
-					my ( $stream, $buffref ) = @_;
+					my ( $stream, $buffref, $eof ) = @_;
 					while( $$buffref =~ s/^(.*)\n// ) {
 						$self->on_line($1);
 					}
+					$self->on_line($$buffref) if $eof && $$buffref;
 					return 0;
 				},
 			},
@@ -112,6 +113,11 @@ sub _add_to_loop {
 			}
 		)
 	);
+	$proc->stdout->configure(
+		read_high_watermark => 16384,
+		read_low_watermark  => 512,
+		read_len => 256,
+	)
 }
 
 1;
