@@ -9,6 +9,7 @@ use Future;
 
 use Module::Load;
 use Data::Dumper;
+use Variable::Disposition qw(retain_future);
 
 sub import {
 	my ($class, $def, %args) = @_;
@@ -60,16 +61,19 @@ sub import {
 		*{$pkg . '::get_or_create'} = sub {
 			my ($self, $type, $v, $create) = @_;
 			return Future->done($v) if ref $v;
-			$self->$type->exists($v)->then(sub {
-				return $self->$type->get_key($v) if shift;
+			retain_future(
+				$self->$type->exists($v)->then(sub {
+					return $self->$type->get_key($v) if shift;
 
-				my $item = $create->($v);
-				$self->$type->set_key(
-					$v => $item
-				)->transform(
-					done => sub { $item }
-				)
-			})
+					my $item = $create->($v);
+					warn "set $v on $type for $self to $item via " . $self->$type;
+					$self->$type->set_key(
+						$v => $item
+					)->transform(
+						done => sub { $item }
+					)
+				})
+			)
 		};
 	}
 
