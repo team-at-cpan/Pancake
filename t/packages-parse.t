@@ -22,10 +22,15 @@ $parser->bus->subscribe_to_event(
 	}
 );
 
+my %module;
 my $module_count;
 $parser->bus->subscribe_to_event(
 	module => sub {
-		my ($ev, $module, $dist, $version) = @_;
+		my ($ev, $module, $version, $dist) = @_;
+		$module{$module} = {
+			dist => $dist,
+			version => $version
+		};
 		++$module_count
 	}
 );
@@ -49,6 +54,10 @@ $parser->process_future->get;
 		is($header{$k}, $parser->header($k), "received $k event matches current header");
 	}
 	is($parser->header('Line-Count'), $module_count, "line count matches module count");
+}
+{
+	is($module{'Adapter::Async'}{dist}, 'T/TE/TEAM/Adapter-Async-0.011.tar.gz', 'module dist matches');
+	is($module{'Adapter::Async'}{version}, '0.011', 'module version matches');
 }
 
 done_testing;
