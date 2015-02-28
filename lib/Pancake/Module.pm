@@ -4,9 +4,9 @@ use strict;
 use warnings;
 
 use Pancake::Definition {
-	module => 'string',
+	module  => 'string',
 	version => 'string',
-	dist => 'string',
+	dist    => 'string',
 };
 
 use Future;
