@@ -44,12 +44,14 @@ sub is_perl {
 }
 
 sub current_version {
-	my ($self) = @_;
-	$self->install_path->then(sub {
+	my ($self, @extra) = @_;
+	$self->install_path(
+		@extra
+	)->then(sub {
 		my $meta = Module::Metadata->new_from_file(shift);
 		return Future->fail('could not extract our version info') unless defined($meta->version);
 
-		Future->done(version->parse($meta->version));
+		Future->done('version'->parse($meta->version));
 	})
 }
 
