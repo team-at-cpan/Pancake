@@ -1,0 +1,29 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use FindBin::libs;
+
+use Log::Any::Adapter qw(Stdout);
+
+use Pancake::Model;
+use Pancake::Installer;
+
+use IO::Async::Loop;
+my $loop = IO::Async::Loop->new;
+my $model = Pancake::Model->new;
+$loop->add(
+	my $installer = Pancake::Installer->new(
+		model => $model
+	)
+);
+
+for my $dist (@ARGV) {
+	$dist =~ s{^(\w)(\w)(\w\w)/}{$1/$1$2/$1$2$3/};
+	$dist .= '.tar.gz' unless $dist =~ /\.tar\.gz$/;
+	my $release = $model->add_release(
+		path => $dist
+	)->get;
+	$installer->install($release)->get;
+}
+
+

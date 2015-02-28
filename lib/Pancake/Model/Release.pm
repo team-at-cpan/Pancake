@@ -8,6 +8,10 @@ use Pancake::Definition {
 	author       => '::Author',
 	version      => 'version',
 	path         => 'string',
+	license      => 'string',
+	abstract     => 'string',
+	status       => 'string',
+	homepage     => 'string',
 };
 
 1;

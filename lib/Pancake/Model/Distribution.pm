@@ -13,6 +13,11 @@ use Pancake::Definition {
 		item       => '::Issue',
 		key        => 'string',
 	},
+	module       => {
+		collection => 'UnorderedMap',
+		item       => '::Module',
+		key        => 'string',
+	},
 	name         => 'string',
 	path         => 'string',
 };

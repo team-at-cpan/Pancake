@@ -1,0 +1,6 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use Pancake::App;
+use Log::Any::Adapter qw(Stdout);
+Pancake::App->new->run(@ARGV);

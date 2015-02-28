@@ -1,0 +1,291 @@
+{
+   "meta" : {
+      "interval" : "1h",
+      "minmax" : {
+         "min" : "1423312405.66633",
+         "max" : "1423315887.58234",
+         "mtime" : 1423315886
+      },
+      "dirtymark" : "1300184987.04785",
+      "serializer_suffix" : ".json",
+      "merged" : {
+         "time" : 1423315867.94147,
+         "epoch" : "1423315867.93408",
+         "into_interval" : "6h"
+      },
+      "Producers" : {
+         "$0" : "/home/mirror/perl5/bin/rrr-server",
+         "time" : 1423315887.58271,
+         "File::Rsync::Mirror::Recentfile" : "0.0.8"
+      },
+      "aggregator" : [
+         "1h",
+         "6h",
+         "1d",
+         "1W",
+         "1M",
+         "1Q",
+         "1Y",
+         "Z"
+      ],
+      "protocol" : 1,
+      "filenameroot" : "RECENT"
+   },
+   "recent" : [
+      {
+         "type" : "new",
+         "path" : "modules/RECENT-1h.yaml",
+         "epoch" : "1423315887.58234"
+      },
+      {
+         "type" : "new",
+         "path" : "authors/RECENT-6h.yaml",
+         "epoch" : "1423315886.19255"
+      },
+      {
+         "type" : "new",
+         "path" : "authors/RECENT-1h.yaml",
+         "epoch" : "1423315885.57388"
+      },
+      {
+         "path" : "authors/02STAMP",
+         "type" : "new",
+         "epoch" : "1423315865.82516"
+      },
+      {
+         "path" : "authors/id/P/PE/PERLANCAR/Rinci-1.1.73.readme",
+         "type" : "new",
+         "epoch" : "1423315845.98606"
+      },
+      {
+         "epoch" : "1423315845.98598",
+         "type" : "new",
+         "path" : "authors/id/P/PE/PERLANCAR/Rinci-1.1.73.meta"
+      },
+      {
+         "epoch" : "1423315845.9843",
+         "path" : "authors/id/P/PE/PERLANCAR/CHECKSUMS",
+         "type" : "new"
+      },
+      {
+         "path" : "modules/RECENT-1d.yaml",
+         "type" : "new",
+         "epoch" : "1423315828.67791"
+      },
+      {
+         "epoch" : "1423315803.2444",
+         "type" : "new",
+         "path" : "index.html"
+      },
+      {
+         "path" : "indices/timestamp.txt",
+         "type" : "new",
+         "epoch" : "1423315801.99549"
+      },
+      {
+         "epoch" : "1423315768.00096",
+         "path" : "modules/07mirror.yml",
+         "type" : "new"
+      },
+      {
+         "path" : "modules/07mirror.json",
+         "type" : "new",
+         "epoch" : "1423315767.99936"
+      },
+      {
+         "path" : "authors/id/P/PE/PERLANCAR/Rinci-1.1.73.tar.gz",
+         "type" : "new",
+         "epoch" : "1423315750.9791"
+      },
+      {
+         "path" : "authors/id/T/TU/TURNSTEP/CHECKSUMS",
+         "type" : "new",
+         "epoch" : "1423314686.13074"
+      },
+      {
+         "epoch" : "1423314605.39115",
+         "type" : "new",
+         "path" : "authors/id/T/TU/TURNSTEP/DBD-Pg-3.5.0_1.tar.gz"
+      },
+      {
+         "type" : "new",
+         "path" : "MIRRORING.FROM",
+         "epoch" : "1423314601.14864"
+      },
+      {
+         "epoch" : "1423314528.74321",
+         "path" : "modules/RECENT-1W.yaml",
+         "type" : "new"
+      },
+      {
+         "path" : "modules/02STAMP",
+         "type" : "new",
+         "epoch" : "1423314488.08981"
+      },
+      {
+         "type" : "new",
+         "path" : "misc/cpan-faq.html",
+         "epoch" : "1423314362.77869"
+      },
+      {
+         "type" : "new",
+         "path" : "indices/cpan-stats.json",
+         "epoch" : "1423314062.43266"
+      },
+      {
+         "epoch" : "1423313946.18135",
+         "type" : "delete",
+         "path" : "authors/id/X/XE/XENU/Tie-ConfigFile-1.00.readme"
+      },
+      {
+         "path" : "authors/id/X/XE/XENU/Tie-ConfigFile-1.00.meta",
+         "type" : "delete",
+         "epoch" : "1423313946.18128"
+      },
+      {
+         "path" : "authors/id/X/XE/XENU/Tie-ConfigFile-1.00.tar.gz",
+         "type" : "delete",
+         "epoch" : "1423313946.18121"
+      },
+      {
+         "epoch" : "1423313946.11763",
+         "type" : "new",
+         "path" : "authors/00whois.xml"
+      },
+      {
+         "epoch" : "1423313946.05768",
+         "type" : "new",
+         "path" : "authors/00whois.html"
+      },
+      {
+         "epoch" : "1423313605.65058",
+         "type" : "new",
+         "path" : "authors/id/S/SJ/SJDY/CHECKSUMS"
+      },
+      {
+         "epoch" : "1423313585.76446",
+         "path" : "authors/id/L/LE/LEEJO/CHECKSUMS",
+         "type" : "new"
+      },
+      {
+         "path" : "authors/id/H/HE/HENRYYKT/CHECKSUMS",
+         "type" : "new",
+         "epoch" : "1423313565.87187"
+      },
+      {
+         "type" : "new",
+         "path" : "scripts/Win32/Utilities/index.html",
+         "epoch" : "1423313503.75253"
+      },
+      {
+         "path" : "scripts/Win32/index.html",
+         "type" : "new",
+         "epoch" : "1423313503.75101"
+      },
+      {
+         "path" : "scripts/Web/index.html",
+         "type" : "new",
+         "epoch" : "1423313503.74948"
+      },
+      {
+         "epoch" : "1423313503.74797",
+         "type" : "new",
+         "path" : "scripts/VersionControl/CVS/index.html"
+      },
+      {
+         "type" : "new",
+         "path" : "scripts/UNIX/System_administration/index.html",
+         "epoch" : "1423313503.74789"
+      },
+      {
+         "type" : "new",
+         "path" : "scripts/Search/index.html",
+         "epoch" : "1423313503.74637"
+      },
+      {
+         "epoch" : "1423313503.74489",
+         "type" : "new",
+         "path" : "scripts/News/index.html"
+      },
+      {
+         "epoch" : "1423313503.74482",
+         "type" : "new",
+         "path" : "scripts/Networking/index.html"
+      },
+      {
+         "epoch" : "1423313503.74332",
+         "path" : "scripts/Mail/index.html",
+         "type" : "new"
+      },
+      {
+         "epoch" : "1423313503.74325",
+         "path" : "scripts/Educational/ComputerScience/index.html",
+         "type" : "new"
+      },
+      {
+         "path" : "scripts/Educational/index.html",
+         "type" : "new",
+         "epoch" : "1423313503.74175"
+      },
+      {
+         "epoch" : "1423313503.74032",
+         "type" : "new",
+         "path" : "scripts/CPAN/Administrative/index.html"
+      },
+      {
+         "epoch" : "1423313503.7388",
+         "path" : "scripts/CPAN/index.html",
+         "type" : "new"
+      },
+      {
+         "path" : "scripts/CGI/Filter/index.html",
+         "type" : "new",
+         "epoch" : "1423313503.73738"
+      },
+      {
+         "epoch" : "1423313503.73587",
+         "type" : "new",
+         "path" : "scripts/CGI/index.html"
+      },
+      {
+         "path" : "scripts/Audio/MP3/index.html",
+         "type" : "new",
+         "epoch" : "1423313503.73442"
+      },
+      {
+         "epoch" : "1423313503.73204",
+         "path" : "scripts/index.html",
+         "type" : "new"
+      },
+      {
+         "epoch" : "1423313326.38956",
+         "path" : "authors/RECENT-1d.yaml",
+         "type" : "new"
+      },
+      {
+         "path" : "modules/01modules.mtime.rss",
+         "type" : "new",
+         "epoch" : "1423312888.51562"
+      },
+      {
+         "epoch" : "1423312888.49457",
+         "type" : "new",
+         "path" : "modules/01modules.mtime.html"
+      },
+      {
+         "path" : "modules/01modules.index.html",
+         "type" : "new",
+         "epoch" : "1423312888.49304"
+      },
+      {
+         "type" : "new",
+         "path" : "authors/id/P/PW/PWR/CHECKSUMS",
+         "epoch" : "1423312485.97638"
+      },
+      {
+         "path" : "authors/id/P/PW/PWR/CloudFlare-Client-0.05_4-TRIAL.tar.gz",
+         "type" : "new",
+         "epoch" : "1423312405.66633"
+      }
+   ]
+}

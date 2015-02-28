@@ -1,0 +1,109 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use Tickit::DSL qw(:async);
+
+use Log::Any;
+# use TabRibbon;
+
+vbox {
+	desktop {
+		# Main index tree on the left
+		tree {
+		} data => [
+			'Distributions' => [
+				'Adapter::Async',
+				'IO::Async',
+			],
+			'Authors' => [
+				TEAM => [
+					'Adapter::Async'
+				],
+				PEVANS => [
+					'IO::Async',
+				],
+			],
+		], 'parent:label'  => 'Server',
+		   'parent:top'    => 0,
+		   'parent:left'   => 0,
+		   'parent:cols'   => 30,
+		   'parent:bottom' => 0;
+
+		tabbed {
+			widget {
+				# Contents of a distribution
+				table { } 
+				 columns => [
+					{ label => 'Module', align => 'left' },
+					{ label => 'Version', align => 'right' },
+					{ label => 'Size', width => 6, align => 'right' },
+				], 'parent:expand' => 1;
+			} label => 'Distribution';
+
+			widget {
+				# Dependencies for a distribution
+				table { } 
+				 columns => [
+					{ label => 'Name', align => 'left' },
+					{ label => 'Type', align => 'left' },
+					{ label => 'Version', align => 'right' },
+					{ label => 'Installed', align => 'right' },
+				], 'parent:expand' => 1;
+			} label => 'Dependencies';
+
+			widget {
+				# Issues for a distribution
+				table { } 
+				 columns => [
+					{ label => 'State', width => 9, align => 'left' },
+					{ label => 'Subject', align => 'left' },
+					{ label => 'Age', align => 'right' },
+				], 'parent:expand' => 1;
+			} label => 'Issues';
+
+			widget {
+				# List of test results for a distribution
+				table { } 
+				 columns => [
+					{ label => 'Status', align => 'left' },
+					{ label => 'Perl', align => 'right' },
+					{ label => 'Platform', align => 'right' },
+				], 'parent:expand' => 1;
+			} label => 'Test results';
+		}  # 'tab_class' => 'TabRibbon',
+		   'parent:label'  => 'TEAM/Adapter-Async',
+		   'parent:left'   => 29,
+		   'parent:right'  => 0,
+		   'parent:bottom' => 9,
+		   'parent:top'    => 0;
+
+#		vbox {
+#			vbox {
+#				# Author module summary
+#				table { } 
+#				 columns => [
+#					{ label => 'Distribution', align => 'left' },
+#					{ label => 'OK', align => 'right' },
+#					{ label => 'Unknown', align => 'right' },
+#					{ label => 'Fail', align => 'right' },
+#				], 'parent:expand' => 1;
+#			} padding => 1;
+		# Active tasks
+		vbox {
+			tabbed {
+				widget {
+					logpanel stderr => 1
+				} label => 'Log';
+				widget {
+					placeholder
+				} label => 'Current tasks';
+			}
+		}  'parent:label'  => 'Current tasks',
+		   'parent:left'   => 29,
+		   'parent:right'  => 0,
+		   'parent:bottom' => 0,
+		   'parent:lines'  => 10;
+	} 'parent:expand' => 1;
+	statusbar {};
+};
+tickit->run;

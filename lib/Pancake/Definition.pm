@@ -50,24 +50,27 @@ sub import {
 		{ # Apply the method
 			no strict 'refs';
 			*{$pkg . '::' . $k} = $code;
-			*{$pkg . '::new'} = sub {
-				my ($class) = shift; bless { @_ }, $class
-			};
-			*{$pkg . '::get_or_create'} = sub {
-				my ($self, $type, $v, $create) = @_;
-				return Future->done($v) if ref $v;
-				$self->$type->exists($v)->then(sub {
-					return $self->$type->get_key($v) if shift;
-
-					my $item = $create->($v);
-					$self->$type->set_key(
-						$v => $item
-					)->transform(
-						done => sub { $item }
-					)
-				})
-			};
 		}
+	}
+	{
+		no strict 'refs';
+		*{$pkg . '::new'} = sub {
+			my ($class) = shift; bless { @_ }, $class
+		};
+		*{$pkg . '::get_or_create'} = sub {
+			my ($self, $type, $v, $create) = @_;
+			return Future->done($v) if ref $v;
+			$self->$type->exists($v)->then(sub {
+				return $self->$type->get_key($v) if shift;
+
+				my $item = $create->($v);
+				$self->$type->set_key(
+					$v => $item
+				)->transform(
+					done => sub { $item }
+				)
+			})
+		};
 	}
 
 	for(sort keys %loader) {

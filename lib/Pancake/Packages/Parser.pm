@@ -23,7 +23,7 @@ sub configure {
 }
 
 sub source { shift->{source} }
-sub use_zcat { 0 }
+sub use_zcat { 1 }
 
 sub header {
 	my ($self, $k) = @_;
